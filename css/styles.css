@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(26, 56, 87);
+}
+
+.main{
+    padding-top: 8%;
+}
+
+.header{
+    background: linear-gradient(blue, purple);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-1{
+    display: flex;
+    list-style: none;
+}
+
+.menu{
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(20, 48, 77);
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+}
+
+.titulo-logo{
+    font-size: 3rem;
+}
+
+.titulo-peliculas{
+    margin-top: 17px;
+    box-shadow: 0px 10px 40px 10px black;
+    color: rgb(170, 203, 207);
+    font-size: 3rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label{
+    margin: 10px;
+    font-weight: 700;
+}
+
+.img-logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.titulo-logo,
+.label{
+    color: rgb(226, 238, 240);
+}
+
+.ul-footer{
+    list-style: none;
+}
+
+.h2-footer{
+    margin-left: 40px;
+}
+
+#elpepe{
+    transform: rotate(90deg);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: rgb(111, 71, 255);
+}
+
+.img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.img:active{
+    width: 600px;
+    transition: 5s;
+}
+
+.elpadre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.correo{
+    text-align: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    height: 170px;
+    width: 400px;
+}
+
+.email{
+    margin-left: 8px;
+}
+
+.boton{
+    margin-left: 60px;
+}
+
+.h2-perron{
+    margin-left: 25px;
+}
+
+.footer{
+    background: linear-gradient(rgb(24, 118, 141), purple);
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.redes{
+    width: 200px;
+}
+
+.contacto{
+    width: 330px;
+}
+
+.header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.item-4{
+    margin-top: 35px;
+}
